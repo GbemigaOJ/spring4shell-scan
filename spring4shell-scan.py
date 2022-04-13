@@ -92,7 +92,7 @@ def parse_url(url):
     """
 
     # Url: https://example.com/login.jsp
-    url = url.replace('https://github.com/andela/HPX-App', '%23')
+    url = url.replace('#', '%23')
     url = url.replace(' ', '%20')
 
     if ('://' not in url):
